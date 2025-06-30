@@ -1,0 +1,1096 @@
+{
+  "signin": {
+    "field": {
+      "userName": {
+        "placeholder": "Enter Username",
+        "label": "Username",
+        "validation": {
+          "required": "This field is required."
+        }
+      },
+      "password": {
+        "placeholder": "Enter Password",
+        "label": "Password",
+        "validation": {
+          "required": "This field is required."
+        }
+      }
+    },
+    "submit": {
+      "signIn": "Sign In"
+    },
+    "signin": {
+      "success": "Welcome! You have successfully logged into your account.",
+      "errortext": {
+        "unknown": "An error occurred while logging in. Please try again later.",
+        "locked": "Your account is locked.",
+        "invalid": "Invalid username or password."
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": {
+      "medirescueAdmin": "Medirescue Admin",
+      "forgotPassword": "Forgot Password",
+      "verifyWithOTP": "Verify with OTP"
+    },
+    "field": {
+      "userName": {
+        "placeholder": "Enter Username",
+        "label": "Username",
+        "validation": {
+          "required": "This field is required.",
+          "invalid": "Invalid character type."
+        }
+      }
+    },
+    "info": {
+      "message": "A password reset link has been sent to your registered email address. Please check your inbox to proceed"
+    },
+    "button": {
+      "continue": "Continue",
+      "back": "Back"
+    },
+    "continue": {
+      "success": {
+        "message": "Password reset OTP has been sent to your registered email address. Please check your inbox to proceed."
+      },
+      "error": {
+        "emailNotFound": "Username not found.",
+        "accountDeleted": "This account has been deleted.",
+        "accountBlocked": "This account is blocked.",
+        "accountLocked": "This account is locked. Please contact support.",
+        "accountDeactivated": "This account has been deactivated.",
+        "message": "An error occurred while resetting password. Please try again later."
+      }
+    }
+  },
+  "confirmPassword": {
+    "title": {
+      "medirescueAdmin": "Medirescue Admin",
+      "confirmPassword": "Confirm Password"
+    },
+    "field": {
+      "newPassword": {
+        "placeholder": "Enter New Password",
+        "label": "New Password",
+        "validation": {
+          "required": "This field is required.",
+          "invalid": "Invalid character type.",
+          "minLength": "Minimum character limit not met.",
+          "maxLength": "Maximum character limit exceeded."
+        }
+      },
+      "confirmNewPassword": {
+        "placeholder": "Enter Confirm New Password",
+        "label": "Confirm New Password",
+        "validation": {
+          "required": "This field is required.",
+          "invalid": "Password does not meet the password policy.",
+          "pwdMismatch": "Passwords do not match."
+        }
+      }
+    },
+    "info": {
+      "message": "**Please note that your password needs to be at least 8 characters long, and it should include both uppercase (A-Z) and lowercase (a-z) letters. Additionally, you must have at least one numeric digit (0-9) and include at least one special character, such as !, @, #, $, or %."
+    },
+    "button": {
+      "resetPassword": "Reset Password"
+    },
+    "submit": {
+      "success": {
+        "message": "Your password has been reset successfully! Please log in with your new password."
+      },
+      "error": {
+        "recentPassword": "Recently used password. Please enter a new password.",
+        "message": "An error occurred while resetting your password. Please try again later."
+      }
+    }
+  },
+  "otp": {
+    "title": {
+      "medirescueAdmin": "Medirescue Admin",
+      "verifyWithOTP": "Verify with OTP"
+    },
+    "field": {
+      "otp": {
+        "placeholder": "Enter OTP",
+        "label": "OTP",
+        "validation": {
+          "required": "This field is required.",
+          "invalid": "Invalid character type.",
+          "minLength": "OTP must be 6 digits long.",
+          "maxLength": "OTP must be 6 digits long."
+        }
+      }
+    },
+    "info": {
+      "message": "To ensure your security, Please enter the One-Time-Password (OTP) sent to your email address."
+    },
+    "button": {
+      "verify": "Verify",
+      "back": "Back"
+    },
+    "resend": {
+      "label": "Resend",
+      "notReceive": "Didn't receive the OTP?"
+    },
+    "submit": {
+      "success": {
+        "message": "OTP validated successfully!"
+      },
+      "error": {
+        "message": "An error occurred while validating OTP.",
+        "otpValidation": "Invalid OTP.",
+        "numberValidation": "OTP only contain numbers.",
+        "lengthValidation": "OTP must be 6 digits long."
+      }
+    }
+  },
+  "changePassword": {
+    "drawer": {
+      "title": {
+        "main": "Change Password"
+      },
+      "field": {
+        "currentPassword": {
+          "placeholder": "Enter Current Password",
+          "label": "Current Password",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "minLength": "Minimum character limit not met.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "newPassword": {
+          "placeholder": "Enter New Password",
+          "label": "New Password",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "minLength": "Minimum character limit not met.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "confirmNewPassword": {
+          "placeholder": "Confirm New Password",
+          "label": "Confirm New Password",
+          "validation": {
+            "required": "This field is required.",
+            "pwdMissMatch": "Passwords do not match.",
+            "invalid": "Invalid character type.",
+            "minLength": "Minimum character limit not met.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        }
+      },
+      "message": {
+        "validation": "**Please note that your password needs to be at least 8 characters long, and it should include both uppercase (A-Z) and lowercase (a-z) letters. Additionally, you must have at least one numeric digit (0-9) and include at least one special character, such as !, @, #, $, or %."
+      },
+      "submit": {
+        "update": "Update"
+      },
+      "create": {
+        "success": {
+          "message": "Password changed successfully!"
+        },
+        "error": {
+          "oldPassword": "Incorrect current password. Please enter the correct current password.",
+          "recentPassword": "Recently used password. Please enter a new password.",
+          "unknown": "An error occurred while changing the password. Please try again later."
+        }
+      }
+    }
+  },
+  "welcome": {
+    "header": {
+      "title": "Welcome to Medirescue Admin",
+      "content": "Enhance your emergency response for better efficiency & coordination"
+    }
+  },
+  "group": {
+    "header": {
+      "title": "Groups",
+      "create": "Create Group"
+    },
+    "banner": {
+      "title": "Manage your Group",
+      "subtitle": "Seamlessly oversee emergency response groups for coordinated and efficient management"
+    },
+    "search": {
+      "listGroup": {
+        "placeholder": "Select Group",
+        "label": "Group",
+        "helperText": "Required",
+        "fetchGroup": {
+          "error": {
+            "unknown": "An unexpected error occurred."
+          }
+        }
+      },
+      "searchGroup": {
+        "placeholder": "Search by group name",
+        "label": "Name"
+      }
+    },
+    "table": {
+      "columns": {
+        "name": "Name",
+        "type": "Type",
+        "emailaddress": "Email Address"
+      },
+      "actions": {
+        "view": "View",
+        "delete": "Delete"
+      },
+      "deleteDialog": {
+        "body": "Are you sure you want to delete the selected group? Deleting this group will unassign all associated allocations."
+      },
+      "tableFallback": {
+        "fetchList": "An unexpected error occurred.",
+        "permission": "No groups have been added yet. Contact your administrator.",
+        "empty": "No groups have been added yet. Use the “Create Group” option to add new.",
+        "noResult": "No results found."
+      },
+      "deleteGroup": {
+        "success": {
+          "message": "Group deleted successfully!"
+        },
+        "error": {
+          "unknown": "An error occurred while deleting the group. Please try again later."
+        }
+      }
+    },
+    "drawer": {
+      "title": {
+        "action": {
+          "create": "Create",
+          "view": "View"
+        },
+        "suffix": "Group"
+      },
+      "field": {
+        "group": {
+          "placeholder": "Select Group",
+          "label": "Group",
+          "fetchGroup": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "name": {
+          "placeholder": "Enter Group Name",
+          "label": "Name",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "emailAddress": {
+          "placeholder": "Enter Email Address",
+          "label": "Email Address",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "country": {
+          "placeholder": "Select Country",
+          "label": "Country",
+          "validation": {
+            "required": "This field is required.",
+            "maxLength": "Maximum character limit exceeded."
+          },
+          "fetchList": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "address": {
+          "placeholder": "Enter Address",
+          "label": "Address",
+          "validation": {
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "contactNumber": {
+          "placeholder": "Enter Contact Number",
+          "label": "Contact Number",
+          "validation": {
+            "invalid": "Invalid character type.",
+            "minLength": "Minimum character limit not met.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        }
+      },
+      "submit": {
+        "create": "create",
+        "update": "Update"
+      },
+      "create": {
+        "success": {
+          "message": "Group created successfully!"
+        },
+        "error": {
+          "duplicate": " already exists!",
+          "unknown": "An error occurred while creating the group. Please try again later."
+        }
+      },
+      "update": {
+        "success": {
+          "message": "Group updated successfully!"
+        },
+        "error": {
+          "duplicate": "Group name already exists.",
+          "unknown": "An error occurred while updating the group. Please try again later."
+        }
+      },
+      "fileUpload": {
+        "info": "Logo should be in PNG or JPEG format and should not exceed 5MB in size.",
+        "success": "Logo uploaded successfully!",
+        "error": "Logo uploaded failed!",
+        "invalidType": "Image type is not valid. Only PNG and JPEG are supported.",
+        "sizeExceeded": "Image size exceeds the maximum limit of 5MB."
+      }
+    }
+  },
+  "organization": {
+    "header": {
+      "title": "Organizations",
+      "create": "Create Organization"
+    },
+    "banner": {
+      "title": "Manage your Organization",
+      "subtitle": "Manage individual organizations within a group to ensure smooth emergency operations"
+    },
+    "search": {
+      "listGroup": {
+        "placeholder": "Select Group",
+        "label": "Group",
+        "helperText": "Required",
+        "fetchGroup": {
+          "error": {
+            "unknown": "An unexpected error occurred."
+          }
+        }
+      },
+      "searchOrganization": {
+        "placeholder": "Search by organization name",
+        "label": "Name"
+      }
+    },
+    "table": {
+      "bottom": {
+        "rowsPerPage": "Rows per page"
+      },
+      "columns": {
+        "name": "Name",
+        "type": "Type",
+        "emailaddress": "Email Address",
+        "actions": "Actions"
+      },
+      "actions": {
+        "view": "View",
+        "delete": "Delete"
+      },
+      "deleteDialog": {
+        "body": "Are you sure you want to delete the selected organization? Deleting this organization will unassign all associated allocations."
+      },
+      "tableFallback": {
+        "permission": "No organization have been added yet. Contact your administrator.",
+        "empty": "No organizations have been added yet. Use the “Create Organization” option to add new.",
+        "noResult": "No results found."
+      },
+      "search": {
+        "error": {
+          "group": {
+            "notFound": "Access denied. The group is no longer active. Please contact your administrator."
+          }
+        }
+      },
+      "deleteOrganization": {
+        "success": {
+          "message": "Organization deleted successfully!"
+        },
+        "error": {
+          "unknown": "An error occurred while deleting the organization. Please try again later."
+        }
+      }
+    },
+    "drawer": {
+      "title": {
+        "action": {
+          "create": "Create",
+          "view": "View"
+        },
+        "suffix": "Organization"
+      },
+      "field": {
+        "group": {
+          "placeholder": "Select Group",
+          "label": "Group",
+          "validation": {
+            "required": "This field is required."
+          },
+          "fetchGroup": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "name": {
+          "placeholder": "Enter Organization Name",
+          "label": "Name",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "organizationType": {
+          "placeholder": "Select Organization Type",
+          "label": "Type",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          },
+          "fetchList": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          },
+          "create": {
+            "success": {
+              "message": "Type added successfully!"
+            },
+            "error": {
+              "duplicate": "Type already exists.",
+              "unknown": "Error in adding Type."
+            }
+          }
+        },
+        "emailAddress": {
+          "placeholder": "Enter Email Address",
+          "label": "Email Address",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "country": {
+          "placeholder": "Select Country",
+          "label": "Country",
+          "validation": {
+            "required": "This field is required."
+          },
+          "fetchList": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "address": {
+          "placeholder": "Enter Address",
+          "label": "Address",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "contactNumber": {
+          "placeholder": "Enter Contact Number",
+          "label": "Contact Number",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "minLength": "Minimum character limit not met.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        }
+      },
+      "submit": {
+        "create": "create",
+        "update": "Update"
+      },
+      "create": {
+        "success": {
+          "message": "Organization created successfully!"
+        },
+        "error": {
+          "duplicate": "Name already exists!",
+          "unknown": "An error occurred while creating the organization. Please try again later."
+        }
+      },
+      "update": {
+        "success": {
+          "message": "Organization updated successfully!"
+        },
+        "error": {
+          "duplicate": "Organization name already exists.",
+          "unknown": "An error occurred while updating the organization. Please try again later."
+        }
+      }
+    }
+  },
+  "vehicle": {
+    "header": {
+      "title": "Vehicles",
+      "create": "Create Vehicle"
+    },
+    "banner": {
+      "title": "Manage your Vehicle",
+      "subtitle": "Emergency Response Management just gets better"
+    },
+    "search": {
+      "listGroup": {
+        "placeholder": "Select Group",
+        "label": "Group",
+        "helperText": "Required",
+        "fetchGroup": {
+          "error": {
+            "unknown": "An unexpected error occurred."
+          }
+        }
+      },
+      "listOrganization": {
+        "placeholder": "Select Organization",
+        "label": "Organization",
+        "helperText": "Required",
+        "fetchGroup": {
+          "error": {
+            "unknown": "An unexpected error occurred."
+          }
+        }
+      },
+      "searchNumber": {
+        "placeholder": "Search by vehicle number",
+        "label": "Number",
+        "helperText": "Required",
+        "fetchGroup": {
+          "error": {
+            "unknown": "An unexpected error occurred."
+          }
+        }
+      },
+      "searchVehicle": {
+        "placeholder": "Search by vehicle name",
+        "label": "Name"
+      }
+    },
+    "table": {
+      "bottom": {
+        "rowsPerPage": "Rows per page"
+      },
+      "columns": {
+        "number": "Number",
+        "emergencyType": "Emergency Type",
+        "vehicleType": "Vehicle Type",
+        "organization": "Organization",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "actions": {
+        "view": "View",
+        "unassign": "Unassign",
+        "delete": "Delete",
+        "status": {
+          "enable": {
+            "success": "Vehicle enabled successfully!",
+            "error": "An error occurred while enabling the vehicle. Please try again later."
+          },
+          "disable": {
+            "success": "Vehicle disabled successfully!",
+            "error": "An error occurred while disabling the vehicle. Please try again later."
+          }
+        }
+      },
+      "unassignDialog": {
+        "body": "Are you sure you want to unassign the selected vehicle from the associated organization?"
+      },
+      "statusDialog": {
+        "title": {
+          "enable": "enable",
+          "disable": "disable"
+        },
+        "body": {
+          "enable": "Are you sure you want to enable the selected vehicle?",
+          "disable": "Are you sure you want to disable the selected vehicle?"
+        }
+      },
+      "deleteDialog": {
+        "body": "Are you sure you want to delete the selected vehicle? Deleting this vehicle will unassign all associated allocations."
+      },
+      "tableFallback": {
+        "permission": "No vehicle have been added yet. Contact your administrator.",
+        "empty": "No vehicles have been added yet. Use the “Create Vehicle” option to add new.",
+        "noResult": "No results found."
+      },
+      "deleteVehicle": {
+        "success": {
+          "message": "Vehicle deleted successfully!"
+        },
+        "error": {
+          "tenant": "Access denied. The group is no longer active. Please contact your administrator. At the top of the login form or as a general error notification on the screen when logged in.",
+          "incident": "Action failed. Vehicle is assigned to an active incident.",
+          "unknown": "An error occurred while deleting the vehicle. Please try again later."
+        }
+      },
+      "vehicleStatus": {
+        "success": {
+          "message": "Vehicle status changed successfully!"
+        },
+        "error": {
+          "tenant": "Access denied. The group is no longer active. Please contact your administrator. At the top of the login form or as a general error notification on the screen when logged in.",
+          "incident": "Action failed. Vehicle is assigned to an active incident.",
+          "unknown": "An error occurred while enabling the vehicle. Please try again later."
+        }
+      },
+      "unassign": {
+        "cell": {
+          "notAssign": "Not assigned"
+        },
+        "success": {
+          "message": "Vehicle unassigned successfully!"
+        },
+        "error": {
+          "tenant": "Access denied. The group is no longer active. Please contact your administrator. At the top of the login form or as a general error notification on the screen when logged in.",
+          "incident": "Action failed. Vehicle is assigned to an active incident.",
+          "unknown": "An error occurred while unassigning the vehicle. Please try again later."
+        }
+      }
+    },
+    "drawer": {
+      "title": {
+        "action": {
+          "create": "Create",
+          "update": "Update",
+          "view": "View"
+        },
+        "suffix": "Vehicle"
+      },
+      "field": {
+        "group": {
+          "placeholder": "Select Group",
+          "label": "Group",
+          "validation": {
+            "required": "This field is required."
+          },
+          "fetchGroup": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "organization": {
+          "placeholder": "Select Organization",
+          "label": "Organization",
+          "validation": {
+            "required": "This field is required."
+          },
+          "fetchGroup": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "vehicleNumber": {
+          "placeholder": "Enter Vehicle Number",
+          "label": "Vehicle Number",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "emergencyType": {
+          "placeholder": "Select Emergency Type",
+          "label": "Emergency Type",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          },
+          "fetchList": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "vehicleType": {
+          "placeholder": "Select Vehicle Type",
+          "label": "Vehicle Type",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          },
+          "fetchList": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          },
+          "create": {
+            "success": {
+              "message": "Vehicle Type created successfully!"
+            },
+            "error": {
+              "duplicate": "Vehicle type already exists.",
+              "unknown": "An error occurred while creating the Vehicle type. Please try again later."
+            }
+          }
+        },
+        "fuelType": {
+          "placeholder": "Select Fuel Type",
+          "label": "Fuel Type",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          },
+          "fetchList": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "primaryPhoneNumber": {
+          "placeholder": "Enter Primary Phone Number",
+          "label": "Primary Phone Number",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "minLength": "Minimum character limit not met.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "secondaryPhoneNumber": {
+          "placeholder": "Enter Secondary Phone Number",
+          "label": "Secondary Phone Number",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "minLength": "Minimum character limit not met.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "chassisNumber": {
+          "placeholder": "Enter Chassis Number",
+          "label": "Chassis Number",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "engineNumber": {
+          "placeholder": "Enter Engine Number",
+          "label": "Engine Number",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "ordometerReading": {
+          "placeholder": "Enter Starting Odometer Reading",
+          "label": "Starting Odometer Reading",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "unit": {
+          "placeholder": "Enter Unit",
+          "label": "Unit",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        }
+      },
+      "submit": {
+        "create": "create",
+        "update": "update"
+      },
+      "create": {
+        "success": {
+          "message": "Vehicle created successfully!"
+        },
+        "error": {
+          "vehicleNumberDuplicate": "Vehicle number already exists.",
+          "engineNumberDuplicate": "Engine number already exists.",
+          "chassisNumberDuplicate": "Chassis number already exists.",
+          "tenant": "Access denied. The group is no longer active. Please contact your administrator. At the top of the login form or as a general error notification on the screen when logged in.",
+          "incident": "Action failed. Vehicle is assigned to an active incident.",
+          "unknown": "An error occurred while creating the vehicle. Please try again later."
+        }
+      },
+      "update": {
+        "success": {
+          "message": "Vehicle updated successfully!"
+        },
+        "error": {
+          "vehicleNumberDuplicate": "Vehicle number already exists.",
+          "engineNumberDuplicate": "Engine number already exists.",
+          "chassisNumberDuplicate": "Chassis number already exists.",
+          "tenant": "Access denied. The group is no longer active. Please contact your administrator. At the top of the login form or as a general error notification on the screen when logged in.",
+          "incident": "Action failed. Vehicle is assigned to an active incident.",
+          "unknown": "An error occurred while updating the vehicle. Please try again later."
+        }
+      }
+    }
+  },
+  "device": {
+    "header": {
+      "title": "Devices",
+      "create": "Create Device"
+    },
+    "banner": {
+      "title": "Manage your Devices",
+      "subtitle": "Emergency Response Management just gets better"
+    },
+    "search": {
+      "listGroup": {
+        "placeholder": "Select Group",
+        "label": "Group",
+        "helperText": "Required",
+        "fetchGroup": {
+          "error": {
+            "unknown": "An unexpected error occurred."
+          }
+        }
+      },
+      "listVehicle": {
+        "placeholder": "Select Vehicle",
+        "label": "Vehicle",
+        "helperText": "Required",
+        "fetchGroup": {
+          "error": {
+            "unknown": "An unexpected error occurred."
+          }
+        }
+      },
+      "searchSerialNumber": {
+        "placeholder": "Search by serial number",
+        "label": "Serial Number",
+        "helperText": "Required",
+        "fetchGroup": {
+          "error": {
+            "unknown": "An unexpected error occurred."
+          }
+        }
+      },
+      "searchDeviceName": {
+        "placeholder": "Search by device name",
+        "label": "Device Name"
+      }
+    },
+    "table": {
+      "bottom": {
+        "rowsPerPage": "Rows per page"
+      },
+      "columns": {
+        "serialNumber": "Serial Number",
+        "name": "Name",
+        "type": "Type",
+        "vehicle": "Vehicle",
+        "status": "Status",
+        "action": "Actions"
+      },
+      "actions": {
+        "view": "View",
+        "unassign": "Unassign",
+        "delete": "Delete",
+        "status": {
+          "enable": {
+            "success": "Device enabled successfully!",
+            "error": "An error occurred while enabling the device. Please try again later."
+          },
+          "disable": {
+            "success": "Device disabled successfully!",
+            "error": "An error occurred while disabling the device. Please try again later."
+          }
+        }
+      },
+      "unassignDialog": {
+        "body": "Are you sure you want to unassign the selected device from the associated vehicle?"
+      },
+      "statusDialog": {
+        "title": {
+          "enable": "enable",
+          "disable": "disable"
+        },
+        "body": {
+          "enable": "Are you sure you want to enable the selected device?",
+          "disable": "Are you sure you want to disable the selected device?"
+        }
+      },
+      "deleteDialog": {
+        "body": "Are you sure you want to delete the selected device? Deleting this device will unassign all associated allocations."
+      },
+      "tableFallback": {
+        "permission": "No devices have been added yet. Contact your administrator.",
+        "empty": "No devices have been added yet. Use the “Create Device” option to add new.",
+        "noResult": "No results found."
+      },
+      "deleteDevice": {
+        "success": {
+          "message": "Device deleted successfully!"
+        },
+        "error": {
+          "unknown": "An error occurred while deleting the device. Please try again later."
+        }
+      },
+      "deviceStatus": {
+        "success": {
+          "message": "Device status changed successfully!"
+        },
+        "error": {
+          "unknown": "An error occurred while enabling the device. Please try again later."
+        }
+      },
+      "unassign": {
+        "success": {
+          "message": "Device unassigned successfully!"
+        },
+        "error": {
+          "unknown": "An error occurred while unassigning the device. Please try again later."
+        }
+      }
+    },
+    "drawer": {
+      "title": {
+        "action": {
+          "create": "Create",
+          "update": "Update",
+          "view": "View"
+        },
+        "suffix": "Device"
+      },
+      "field": {
+        "group": {
+          "placeholder": "Select Group",
+          "label": "Group",
+          "validation": {
+            "required": "This field is required."
+          },
+          "fetchGroup": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "organization": {
+          "placeholder": "Select Organization",
+          "label": "Organization",
+          "validation": {
+            "required": "This field is required."
+          },
+          "fetchGroup": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "serialNumber": {
+          "placeholder": "Enter Serial Number",
+          "label": "Serial Number",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "minLength": "Minimum character limit not met.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "deviceName": {
+          "placeholder": "Enter Device Name",
+          "label": "Device Name",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "minLength": "Minimum character limit not met.",
+            "maxLength": "Maximum character limit exceeded."
+          }
+        },
+        "deviceType": {
+          "placeholder": "Select Device Type",
+          "label": "Device Type",
+          "validation": {
+            "required": "This field is required.",
+            "invalid": "Invalid character type.",
+            "maxLength": "Maximum character limit exceeded."
+          },
+          "fetchList": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "vehicle": {
+          "placeholder": "Select Vehicle",
+          "label": "Vehicle",
+          "validation": {
+            "required": "This field is required."
+          },
+          "fetchGroup": {
+            "error": {
+              "unknown": "An unexpected error occurred."
+            }
+          }
+        },
+        "qrCode": {
+          "placeholder": "QR Code",
+          "label": "QR Code",
+          "helperText": "If you are unable to scan the above image, enter the code below.",
+          "genarate": {
+            "action": "Generate QR Code",
+            "success": "QR Code generated successfully!",
+            "error": "Failed to generate QR code."
+          },
+          "regenerate": {
+            "action": "Regenerate QR Code",
+            "success": "QR Code regenerated successfully!",
+            "error": "Failed to regenerate QR code."
+          },
+          "copy": {
+            "success": "QR code copied successfully!",
+            "error": "Failed to copy QR code."
+          }
+        }
+      },
+      "submit": {
+        "create": "Create",
+        "update": "Update"
+      },
+      "create": {
+        "success": {
+          "message": "Device created successfully!"
+        },
+        "error": {
+          "duplicate": "Serial number already exists.",
+          "unknown": "An error occurred while creating the device. Please try again later."
+        }
+      },
+      "update": {
+        "success": {
+          "message": "Device updated successfully!"
+        },
+        "error": {
+          "duplicate": "Serial number already exists.",
+          "unknown": "An error occurred while updating the device. Please try again later."
+        }
+      }
+    }
+  }
+}

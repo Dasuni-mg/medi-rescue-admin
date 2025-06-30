@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="Group_11" data-name="Group 11" transform="translate(-246 -15)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(246 15)" fill="#fff" stroke="#e2e4eb" stroke-width="1" opacity="0">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="20.5" fill="none"/>
+    </g>
+    <path id="burger-menu-svgrepo-com" d="M5,8h8.75M5,12H19m-8.75,4H19" transform="translate(255 24)" fill="none" stroke="#3d5488" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

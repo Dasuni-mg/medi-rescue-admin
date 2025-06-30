@@ -1,0 +1,404 @@
+@import '_themes-vars.module.scss';
+
+// Software Engineers / Developers please dont change any styles here - please inform the
+// UI Team if any
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px $white inset !important;
+  box-shadow: 0 0 0 1000px $white inset !important;
+  -webkit-text-fill-color: $dark50 !important;
+}
+
+input[type='password']:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px $white inset !important;
+  box-shadow: 0 0 0 1000px $white inset !important;
+  -webkit-text-fill-color: $dark50 !important;
+}
+
+input {
+  font: 15px/1 'Poppins-Regular' !important;
+  color: $dark50 !important;
+  line-height: 21px !important;
+}
+
+.css-knqc4i-MuiDialogActions-root {
+  padding: 0px 20px 20px 0px !important;
+}
+
+.MuiDrawer-paperAnchorRight {
+  width: 100%;
+  max-width: 615px;
+}
+
+// mat sidenav
+.d-title-space {
+  padding: 15px 25px;
+}
+
+.MuiDivider-root {
+  margin-bottom: 20px;
+}
+
+.css-gm97kf-MuiButtonBase-root-MuiListItemButton-root {
+  background-color: $white;
+}
+
+.css-9g6ij-MuiButtonBase-root-MuiListItemButton-root {
+  background-color: $white;
+}
+.css-h4y409-MuiList-root {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+// mat sidenav
+
+// Mat button
+.MuiButton-root {
+  height: 41px;
+  font-weight: 400 !important;
+  line-height: 15px;
+}
+// Mat button
+
+.css-1nvvwpf-MuiTableCell-root {
+  color: $dark50;
+}
+
+// input placeholder
+::placeholder {
+  color: $dark50 !important;
+}
+// input placeholder
+
+.left_bar_logo {
+  padding: 12px 0px 8px 0px;
+  background-color: $white;
+  border-bottom: 1px solid $logobottomColor;
+  box-shadow: $inner-shadow;
+}
+
+.left-bar-logo-wrapper {
+  min-width: 161px;
+  width: 160px;
+  height: 42px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: table-cell !important;
+  vertical-align: top !important;
+  overflow: hidden;
+}
+
+.left-bar-logo-wrapper-img {
+  height: 42px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  object-fit: contain !important;
+}
+
+.css-toj3x1-MuiAvatar-root {
+  background-color: $error50 !important;
+}
+
+.login-logo-wrapper {
+  min-width: 58px;
+  width: 57px;
+  height: 58px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: table-cell !important;
+  vertical-align: top !important;
+  overflow: hidden;
+}
+
+.login-logo-wrapper-img {
+  height: 58px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  object-fit: contain !important;
+}
+
+.login-side-logo-wrapper {
+  min-width: 112px;
+  width: 112px;
+  height: 261px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: table-cell !important;
+  vertical-align: top !important;
+  overflow: hidden;
+}
+
+.login-side-logo-wrapper-img {
+  height: 261px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  object-fit: contain !important;
+}
+
+.sidebar-bg-img {
+  width: 229px;
+  height: 348px;
+  position: absolute;
+  bottom: 0px;
+  left: -40px;
+}
+
+// mobile dialog padding
+@media screen and (max-width: 390px) {
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    margin: 20px !important;
+  }
+}
+// mobile dialog padding
+
+.login-wrapper {
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.login-bg {
+  background-color: $loginBgColor;
+  width: 50%;
+}
+
+//Searchable Select(Auto complete)
+.css-ka7ti6-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding: 12px 14px !important;
+}
+
+.css-1gsu57t-MuiPopper-root-MuiAutocomplete-popper {
+  box-shadow: $outer-glow-shadow;
+  z-index: 1500 !important;
+}
+
+.css-ka7ti6-MuiAutocomplete-root .MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiAutocomplete-input {
+  padding: 2.5px 4px 2.5px 0px;
+}
+
+.css-d7l1ni-option {
+  background-color: $white;
+}
+//Searchable Select(Auto complete)
+
+//creatable select-vehicle
+.css-t3ipsp-control {
+  padding: 7px !important;
+  border-radius: 7px !important;
+}
+
+.css-13cymwt-control {
+  padding: 8px 6px !important;
+  border-radius: 8px !important;
+}
+
+.css-1wy0on6 {
+  display: none !important;
+}
+
+.css-1nmdiq5-menu {
+  z-index: 1500 !important;
+  box-shadow: $outer-glow-shadow !important;
+  border-radius: none !important;
+}
+
+.css-1jqq78o-placeholder {
+  color: $placeholderSelect !important;
+  margin: 0 !important;
+}
+
+.css-qr46ko {
+  color: $primary800;
+}
+
+.css-d7l1ni-option:hover {
+  background-color: $selectHoverBg !important;
+  cursor: pointer;
+}
+
+//creatable select-vehicle
+
+.css-y2pq4h-MuiStack-root {
+  display: none !important;
+}
+
+.grid-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  height: 100%;
+  padding: 50px;
+}
+
+.grid-form-wrapper {
+  max-width: 1300px;
+}
+
+.css-yvq0hx-MuiPaper-root-MuiDrawer-paper {
+  margin-left: 0;
+  color: $dark50;
+}
+
+// Radio button label
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-size: 12px;
+  color: $dark50;
+}
+
+// switch label
+.css-13sseau-MuiFormLabel-root {
+  font-size: smaller;
+  color: $dark50;
+}
+// switch label
+
+.MuiFormLabel-root.MuiFormLabel-colorPrimary.switch-label.css-1jbb5z6-MuiFormLabel-root {
+  font-size: 12px;
+  color: $dark50;
+}
+
+//  Drawer z index
+.css-1u2w381-MuiModal-root-MuiDrawer-root {
+  z-index: 900;
+}
+
+.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root {
+  z-index: 9;
+}
+//  Drawer z index
+
+//  MUI menu z index
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  z-index: 989;
+}
+
+.radio-label {
+  font-size: 11px;
+  color: $dark50;
+}
+
+// file uploader
+.files-ui-footer-border-rd-top-bg-color-default {
+  display: none !important;
+}
+
+.files-ui-dropzone-extra-default {
+  color: $dark50;
+  border: 1px solid $grey200 !important;
+  border-radius: 8px;
+}
+
+.files-ui-header-border-rd-default {
+  padding: 12px 14px;
+}
+
+.table-p-lift-if-icon {
+  top: -10px;
+  position: relative;
+}
+
+.css-125iqkp-MuiFormLabel-asterisk {
+  color: $redPrimary !important;
+}
+
+.css-wbxr0x-MuiButtonBase-root-MuiButton-root {
+  color: $primaryBlue;
+  border: 1px solid $primaryBlue;
+}
+
+.fui-dropzone-root.fui-dropzone-border.files-ui-dropzone-extra-default.clickable {
+  border: none !important;
+}
+
+.files-ui-dropzone-children-container {
+  width: 100%;
+  flex-grow: 0 !important;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: -26px 0 5px 0;
+}
+
+.fui-dropzone-root.clickable {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.fui-dropzone-root {
+  min-height: 128px !important;
+}
+
+.files-ui-header span:first-child {
+  display: none !important;
+}
+
+.files-ui-header span:nth-child(2) {
+  display: none !important;
+}
+
+.files-ui-file-mosaic-main-container.files-ui-tooltip {
+  position: absolute;
+  top: 0px !important;
+}
+
+@media (min-width: 900px) {
+  .css-e32y1b-MuiGrid-root {
+    height: auto;
+    min-height: 813px;
+  }
+}
+// file uploader
+
+td.MuiTableCell-root.font_tables.MuiTableCell-body.MuiTableCell-alignLeft.MuiTableCell-sizeMedium.css-1p55e6l-MuiTableCell-root {
+  min-width: 20px;
+}
+
+.css-1xb78sh-MuiButtonBase-root-MuiCheckbox-root {
+  padding-left: 30px !important;
+}
+
+.css-hxgc6a-MuiTableCell-root {
+  width: 20px;
+  min-width: 20px;
+}
+
+.css-mvfa5q-MuiButtonBase-root-MuiIconButton-root {
+  rotate: 90deg !important;
+}
+
+.mobile-stay-on-top-sidebar {
+  position: relative;
+  background-color: $primaryLight;
+  box-shadow: $inner-shadow;
+  z-index: 900;
+}
+
+//t-body font styling
+.MuiBox-root,
+.MuiTablePagination-root,
+.MuiTableCell-root,
+.MuiSelect-select {
+  font: 15px/1 'Poppins-Regular' !important;
+  color: $dark50 !important;
+  line-height: 21px !important;
+}
+
+.MuiTablePagination-toolbar,
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-select,
+.MuiTablePagination-displayedRows {
+  font: 15px/1 'Poppins-Regular' !important;
+  color: $dark50 !important;
+}

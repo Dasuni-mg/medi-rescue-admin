@@ -1,0 +1,412 @@
+// Software Engineers / Developers please dont change any styles here - please inform the
+// UI Team if any
+
+@import '_themes-vars.module.scss';
+
+* {
+  font-family: 'Poppins-Regular' !important;
+}
+
+body {
+  font-family: 'Poppins-Regular' !important;
+  overflow: auto !important;
+  position: relative !important;
+  height: auto !important;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined' !important;
+}
+
+/* Home Page css */
+.bg-load {
+  background-image: url(/images/bg-load.jpg);
+  background-color: $white !important;
+  background-size: 100% 100%;
+  background-position: bottom 0px left 1px;
+  background-repeat: repeat;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+  min-height: calc(100vh - 63px);
+}
+
+.white-bg {
+  background-color: $white;
+}
+
+.text-break {
+  word-break: break-word !important;
+}
+
+.banner-snippet {
+  height: 109px;
+  position: absolute;
+  bottom: 38px;
+  z-index: 99;
+  width: 246px;
+  margin-left: 24px;
+}
+
+/* login page css */
+@media screen and (max-width: 900px) {
+  .mediportalLogo {
+    display: none;
+  }
+}
+
+/* payment page css */
+@media screen and (min-width: 1536px) and (max-width: 1615px) {
+  .payment-item {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .payment-history {
+    margin-bottom: 20px;
+  }
+}
+
+/* ==============================|| Heading ||==============================  */
+.header-banner-img {
+  width: 401px;
+  height: 341px;
+  top: -5px;
+  right: 39px;
+  z-index: 1;
+  position: absolute;
+}
+
+.lift-banner-text {
+  position: relative;
+  z-index: 9;
+}
+
+.pl-20-sub-text {
+  padding-left: 20px;
+}
+
+.lift-header-title {
+  z-index: 3;
+  position: relative;
+  top: -8px;
+}
+
+@media only screen and (max-width: 1482px) and (min-width: 1276px) {
+  .header-banner-img {
+    width: 328px;
+    height: 283px;
+    top: 13px;
+    right: 39px;
+    z-index: 1;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 1275px) and (min-width: 1095px) {
+  .header-banner-img {
+    width: 262px;
+    height: 226px;
+    top: 41px;
+    right: 39px;
+    z-index: 1;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 1094px) and (min-width: 900px) {
+  .header-banner-img {
+    width: 207px;
+    height: 171px;
+    top: 67px;
+    right: 39px;
+    z-index: 1;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 899px) and (min-width: 700px) {
+  .header-banner-img {
+    width: 240px;
+    height: 206px;
+    top: 48px;
+    right: 39px;
+    z-index: 1;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 600px) {
+  .header-banner-img {
+    width: 366px;
+    height: 207px;
+    top: 57px;
+    right: 39px;
+    z-index: 1;
+    position: absolute;
+  }
+}
+
+.position-btn-mobile {
+  position: relative;
+  right: 134px;
+}
+
+@media only screen and (max-width: 1175px) and (min-width: 601px) {
+  .position-btn-mobile {
+    position: relative;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .position-btn-mobile {
+    float: left;
+    right: 0px;
+    left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .pl-20-sub-text {
+    padding-left: 0px !important;
+  }
+  .header-banner-img {
+    background-size: contain;
+    width: 147px;
+    height: 121px;
+    top: 143px;
+    right: 34px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .pl-20-sub-text {
+    padding-left: 0px !important;
+  }
+  .header-banner-img {
+    display: none !important;
+  }
+}
+
+/* ==============================|| Banner ||==============================  */
+.header-banner {
+  background-image: url(/images/home/_bg_banner_header.jpg);
+  background-position: right -4px top -100px;
+
+  /* this should read from the variable please */
+  box-shadow: $outer-Shadow-banner;
+  /* this should read from the variable please */
+
+  /* this is the base shadow */
+  /* box-shadow: 0px 1px 18px 1px #BFD5EB; */
+  /* this is the base shadow */
+
+  /* this should read from the variable please */
+  background-color: $primaryDark;
+  /* this should read from the variable please */
+
+  border: 4px solid $white;
+  border-radius: 25px;
+  min-height: 159px;
+  padding: 30px;
+}
+
+.lift-form-values {
+  z-index: 13;
+  position: relative;
+}
+.h-end {
+  justify-content: flex-end;
+}
+.css-104bxr6-MuiModal-root-MuiDrawer-root {
+  z-index: 0;
+}
+.google-map-wrapper {
+  overflow: hidden;
+}
+
+.google-map {
+  width: 100%;
+  height: 270px;
+  position: relative;
+  border: none !important;
+}
+
+.img-resize-group-wrapper {
+  border: 1px solid $grey200 !important;
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: table-cell !important;
+  vertical-align: top !important;
+  overflow: hidden;
+}
+
+.img-resize-group {
+  height: 50px !important;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  object-fit: contain !important;
+}
+
+.img-resize-group-view {
+  height: 100px !important;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  object-fit: contain !important;
+}
+
+.view-create-group-img-show {
+  border: 1px solid $grey200 !important;
+  background-color: $white;
+  border-radius: 6px;
+  width: 130px;
+  height: 130px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: table-cell !important;
+  vertical-align: top !important;
+  overflow: hidden;
+}
+
+.view-create-group-actual-img-wrapper {
+  border: 1px solid $grey200 !important;
+  background-color: $white;
+  border-radius: 6px;
+  width: 174px;
+  height: 130px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: table-cell !important;
+  vertical-align: top !important;
+  overflow: hidden;
+}
+
+.view-create-group-actual-img {
+  height: 130px !important;
+  // display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  object-fit: contain !important;
+}
+
+// #blinking {
+//   animation: animate-pulse 3s linear infinite;
+//   cursor: pointer;
+//   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+// }
+
+// @keyframes animate-pulse{
+//   0%{
+//       box-shadow: 0 0 0 0 $primary200,  0 0 0 0 $primary200;
+//   }
+//   40%{
+//       box-shadow: 0 0 0 20px rgba(255,109,74,0.0),  0 0 0 0 $primary200;
+//   }
+//   80%{
+//       box-shadow: 0 0 0 20px rgba(255,109,74,0.0),  0 0 0 20px rgba(255,109,74,0);
+//   }
+//   100%{
+//       box-shadow: 0 0 0 0 rgba(255,109,74,0.0),  0 0 0 20px rgba(255,109,74,0);
+//   }
+
+// }
+
+#blinking {
+  animation: animate-pulse 3s linear infinite;
+  cursor: pointer;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes animate-pulse {
+  0% {
+    box-shadow: 0 0 0 0 $primary200, 0 0 0 0 $primary200;
+  }
+  40% {
+    box-shadow: 0 0 0 20px rgba(255, 109, 74, 0), 0 0 0 0 $primary200;
+  }
+  80% {
+    box-shadow: 0 0 0 20px rgba(255, 109, 74, 0), 0 0 0 20px rgba(255, 109, 74, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 109, 74, 0), 0 0 0 20px rgba(255, 109, 74, 0);
+  }
+}
+
+@property --border-angle {
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: 0turn;
+}
+
+// inner page loader
+.gsSgQy {
+  position: relative;
+  left: 143px !important;
+}
+
+// Landing page styles
+.landing-wrapper {
+  background-image: url(/images/home/landing-bg.jpg);
+  background-position: right -4px top -100px;
+  background-color: $white !important;
+  background-size: 100% 100%;
+  background-size: cover;
+  flex-direction: row;
+  width: 100vw;
+  height: 94vh;
+  left: 2px !important;
+}
+
+.landing-small-icon img {
+  width: 29px !important;
+  height: 33px !important;
+  position: relative !important;
+}
+
+.landing-welcome-img img {
+  width: 734px !important;
+  position: relative !important;
+}
+
+.vertical-bar img {
+  width: 4px !important;
+  position: relative !important;
+}
+
+.bg-primary-light {
+  background-color: $white;
+}
+
+.border-3 {
+  border: 3px solid $white;
+  box-shadow: $outer-glow-shadow;
+}
+
+.css-1ozu5o9 {
+  padding: 0px !important;
+}
+
+.download,
+.copy {
+  max-width: 43px !important;
+  min-width: 43px !important;
+  height: 43px !important;
+  text-decoration: none;
+  cursor: pointer;
+}

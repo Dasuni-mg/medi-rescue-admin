@@ -1,0 +1,43 @@
+{
+  "bracketSpacing": true,
+  "printWidth": 140,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 140,
+        "tabWidth": 2,
+        "bracketSameLine": false
+      }
+    },
+    {
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
+      "options": {
+        "singleQuote": true,
+        "semi": true,
+        "jsdocSpaces": 1,
+        "jsdocDescriptionWithDot": true,
+        "jsdocKeepUnParseAbleExampleIndent": true
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "tabWidth": 2,
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": "*.yml",
+      "options": {
+        "tabWidth": 2,
+        "singleQuote": false,
+        "proseWrap": "always"
+      }
+    }
+  ]
+}

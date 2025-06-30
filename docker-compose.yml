@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  subscription_frontend:
+    container_name: admin-frontend
+    image: gcr.io/digital-health-354005/dhs-mr-smt-admin-frontend:1.0.0
+    build: .
+    environment:
+      - AUTH_SVC_URL=http://74.235.80.87:8898
+    ports:
+      - 3000:80

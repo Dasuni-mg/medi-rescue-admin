@@ -1,0 +1,5 @@
+{
+  "authSvcUrl": "${AUTH_SVC_URL}",
+  "apiGatewayUrl": "${API_GATEWAY_URL}",
+  "s3BucketUrl": "${S3_BUCKET_URL}"
+}
