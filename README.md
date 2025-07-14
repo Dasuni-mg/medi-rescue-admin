@@ -8,7 +8,9 @@ Responsive Screens
 
 Iphone 14 pro max
 ![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/14promax.PNG)
+![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/14promax-sidebar.PNG)
 
 Ipad pro
 ![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/ipadpro.PNG)
+![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/ipadpro-sidebar.PNG)
 
