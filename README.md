@@ -13,6 +13,8 @@ Iphone 14 pro max
 ![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/14promax-sidebar.PNG)
 
 Ipad pro
+
+![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/ipad-login.PNG)
 ![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/ipadpro.PNG)
 ![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/ipad-sidebar.PNG)
 
