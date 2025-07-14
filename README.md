@@ -7,6 +7,8 @@
 Responsive Screens
 
 Iphone 14 pro max
+
+![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/mobile-login.PNG)
 ![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/14promax.PNG)
 ![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/14promax-sidebar.PNG)
 
