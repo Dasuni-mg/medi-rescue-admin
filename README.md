@@ -4,7 +4,7 @@
 ![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/incidents.png)
 ![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/incidents-table.png)
 
-Responsive Screens
+<h3> Responsive Screens </h3>
 
 Iphone 14 pro max
 
