@@ -12,5 +12,5 @@ Iphone 14 pro max
 
 Ipad pro
 ![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/ipadpro.PNG)
-![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/ipadpro-sidebar.PNG)
+![Preview](https://github.com/Dasuni-mg/medi-rescue-admin/blob/main/ipad-sidebar.PNG)
 
